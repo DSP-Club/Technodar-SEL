@@ -1,6 +1,22 @@
 <resources>
-    <string name="app_name">Technodar SEL</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">Судовой журнал</string>
+    <string name="title_main_logbook">Главный журнал</string>
+    <string name="title_ships_logbook">Судовой журнал</string>
+    <string name="title_machine_logbook">Машинный журнал</string>
+    <string name="view_calendar">Посмотреть календарь</string>
+    <string name="regular">Регулярные</string>
+    <string name="irregular">Нерегулярные</string>
+    <string name="add_event">Добавить событие</string>
+    <string name="course_and_position">Курс и местоположение</string>
+    <string name="hydrometeorological_data">Гидрометерологические данные</string>
+    <string name="events">События</string>
+    <string name="solas_74">СОЛАС 74</string>
+    <string name="main_engine_1">Главный двигатель №1</string>
+    <string name="main_engine_2">Главный двигатель №2</string>
+    <string name="disel_generator_1">Дизель генератор №1</string>
+    <string name="disel_generator_2">Дизель генератор №2</string>
+    <string name="boiler_1">Котёл №1</string>
+    <string name="utp_1">УТП №1</string>
+    <string name="back">Назад</string>
+    <string name="add">Добавить</string>
 </resources>

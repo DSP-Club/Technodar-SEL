@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_main_logbook">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="dsp_club.technodar_sel.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_main_logbook"
+        android:name="dsp_club.technodar_sel.ui.main_logbook.MainLogbookFragment"
+        android:label="@string/title_main_logbook"
+        tools:layout="@layout/fragment_main_logbook" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="dsp_club.technodar_sel.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_ships_logbook"
+        android:name="dsp_club.technodar_sel.ui.ships_logbook.ShipsLogbookFragment"
+        android:label="@string/title_ships_logbook"
+        tools:layout="@layout/fragment_ships_logbook" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="dsp_club.technodar_sel.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_machine_logbook"
+        android:name="dsp_club.technodar_sel.ui.machine_logbook.MachineLogbookFragment"
+        android:label="@string/title_machine_logbook"
+        tools:layout="@layout/fragment_machine_logbook" />
 </navigation>
